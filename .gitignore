@@ -1,0 +1,6 @@
+# ignore chroma_db
+code/chroma_db
+code/chroma_db/*
+
+# ignore .env
+code/.env

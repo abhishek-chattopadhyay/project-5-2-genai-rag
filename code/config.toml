@@ -1,0 +1,11 @@
+[server]
+enableCORS = false
+headless = true
+port = 8501
+
+[theme]
+primaryColor = "#1E90FF"  # Dodger Blue (or any blue shade you like)
+backgroundColor = "#000000"  # Black
+secondaryBackgroundColor = "#121212"  # Dark gray for contrast
+textColor = "#FFFFFF"  # White text for readability
+font = "sans serif"
