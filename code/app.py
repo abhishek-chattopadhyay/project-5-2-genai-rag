@@ -29,7 +29,7 @@ db = Chroma(
 # Streamlit UI Configuration
 st.set_page_config(
     page_title="German Law AI Chatbot",
-    page_icon="🤖",
+    page_icon="⚖️",
     layout="centered"
 )
 
@@ -70,8 +70,9 @@ st.markdown(
     </style>
     
     <div class='title-container'>
-        <h2>The Laws for the Federal Republic of Germany</h2>
-        <p>Your AI-powered assistant for the laws in Germany</p>
+        <h2>RoboRecht</h2>
+        <p>Your AI-powered assistant lawyer in Germany</p>
+        <p>Sue smarter, not harder.</p>
     </div>
     """,
     unsafe_allow_html=True
