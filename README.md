@@ -1,18 +1,45 @@
 ![logo](./image/logo.png)
 
-# RoboRecht: Your Assistant Lawyer Powered With AI
-I belong to an international community in Germany and most of the times it is hard for me to understand the laws in Germany as they are in German and highly convoluted. This led me to develop **RoboRecht**, an AI-powered bot which can reply in easy words about the laws in Germany. It is based on RAG system and uses OpenAI GPT-4o model at its backend.
+# RoboRecht: Your AI-Powered Legal Assistant
 
-# Dataset collection
-In the `data` folder, you will find the PDFs which contain the laws in Germany in English. These are open source documents and you can use it too. 
-- Source: [German Bundestag](https://www.bundestag.de/services/infomaterial)
+Understanding German laws can be challenging—especially for international residents facing language barriers and complex legal language. To address this, I developed **RoboRecht**, an AI-powered assistant that explains German laws in simple, easy-to-understand language. Built using a Retrieval-Augmented Generation (RAG) architecture and powered by OpenAI's GPT-4o model, RoboRecht makes legal information more accessible and user-friendly.
 
-# Information about the project
-- Database: I have used `ChromaDB` to create the vector database in this project. You can change it according to your need.
-- Text embedding model: `text-embedding-3-large` model is used for embedding the texts to vectors.
-- LLM model: OpenAI GPT-4o model is used.
-- OpenAI API: You need to have OpenAI API key to run the python code or the Jupyter notebook given in this work. Put your API key in the `.env` file and run the notebook or the python script.
-- Python libraries: The necessary python modules are given in the `requiremnts.txt` file. Create a python environment and download the requiremnts using pip as `pip install requirements.txt`.
-- Streamlit app: The script `app.py` is a Streamlit implementation of the `main.ipynb`. Install Streamlit along with the `requirements.txt` to run this app.
+## 📚 Dataset Collection
 
+The `data` folder contains open-source English translations of German laws in PDF format.
+
+- **Source:** [German Bundestag](https://www.bundestag.de/services/infomaterial)
+
+## 🔧 Project Architecture
+
+- **Vector Database:** `ChromaDB` is used for storing and querying document embeddings. You can replace it with your preferred vector database.
+- **Embedding Model:** `text-embedding-3-large` from OpenAI for transforming text into vector representations.
+- **LLM Model:** OpenAI `GPT-4o` model powers the legal Q&A generation.
+- **API Key:** Ensure you have a valid OpenAI API key. Store it securely in a `.env` file to run the notebook or scripts.
+- **Python Libraries:** All required libraries are listed in `requirements.txt`. Install them with:
+  ```bash
+  pip install -r requirements.txt
+  ```
+## 🚀 Streamlit App
+A user-friendly web interface is implemented using Streamlit.
+- Main Script: `app.py` serves as the front-end interface for the assistant.
+- Setup: Install Streamlit along with the required dependencies:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+## 📂 Project Structure
+```bash
+RoboRecht/
+│
+├── app.py                # Streamlit application
+├── main.ipynb            # Jupyter notebook with full pipeline
+├── .env                  # File to store your OpenAI API key
+├── data/                 # Contains PDF files of German laws
+├── image/                # Contains project logo
+├── requirements.txt      # List of required Python libraries
+```
+## 📬 Contact
+For questions, feedback, or collaboration, feel free to connect via [LinkedIn](linkedin.com/in/abhishekchemistry/).  
+**Disclaimer**: RoboRecht is intended for informational purposes only and does not constitute legal advice.
 
