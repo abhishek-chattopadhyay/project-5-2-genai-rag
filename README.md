@@ -40,6 +40,6 @@ RoboRecht/
 ├── requirements.txt      # List of required Python libraries
 ```
 ## 📬 Contact
-For questions, feedback, or collaboration, feel free to connect via [LinkedIn](linkedin.com/in/abhishekchemistry/).  
+For questions, feedback, or collaboration, feel free to connect via [LinkedIn](https://www.linkedin.com/in/techyabhishek/).  
 **Disclaimer**: RoboRecht is intended for informational purposes only and does not constitute legal advice.
 
