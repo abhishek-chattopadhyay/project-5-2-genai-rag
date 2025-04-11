@@ -24,10 +24,10 @@ The `data` folder contains open-source English translations of German laws in PD
 A user-friendly web interface is implemented using Streamlit.
 - Main Script: `app.py` serves as the front-end interface for the assistant.
 - Setup: Install Streamlit along with the required dependencies:
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+  ```bash
+  pip install -r requirements.txt
+  streamlit run app.py
+  ```
 ## 📂 Project Structure
 ```bash
 RoboRecht/
